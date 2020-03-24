@@ -40,10 +40,9 @@ header a:hover {
 }
 .bn-ul li a {
   font-size: 19px;
-  color: black;
   font-weight: 700;
 }
-.bn-ul li a:hover, .subscribe:hover, .ar-div1 {
+.bn-ul li a:hover, .subscribe:hover, .ar-div1, .cl-b-hv-r:hover {
   color: #f72210;
 }
 #search {
@@ -71,21 +70,87 @@ main {
 .ar-div1 {
   background-color: rgba(255, 255, 255, 0.9);
 }
-.cl-b-hv-r, .cl-b-hv-b, .cl-b-hv-r:hover, .cl-b-hv-b:hover {
+.bn-ul li a, .cl-b-hv-un-r, .cl-b-hv-b, .cl-b-hv-un-r:hover, .cl-b-hv-b:hover, .cl-b-hv-r {
   color: black;
 } 
-.cl-b-hv-r, .cl-b-hv-b, .cl-b-hv-b:hover  {
+.cl-b-hv-un-r, .cl-b-hv-b, .cl-b-hv-b:hover, .cl-b-hv-r, .cl-b-hv-r:hover {
   text-decoration: none;
 }
-.cl-b-hv-r:hover {
+.cl-b-hv-un-r:hover {
   text-decoration: underline #f72210;
 }
 .ar-mid-div1 {
   background-color: #c2d4d7;
 }
-.mp-m3-div {
+.mp-m3-div, .opinion-div1, .latest-news-div {
   border-top: 1px solid #ddd;
 }
-/* * {
-  border: 1px solid greenyellow; */
+.opinion a:hover {
+  text-decoration: none;
 }
+.authors-img {
+  width: 63px;
+  height: 63px;
+}
+.by-author {
+  font-size: 14px;
+  color: #555;
+}
+.opinion-div1:first-of-type, .latest-news-div:first-of-type {
+  border-top: 0;
+}
+.debate-img1 {
+  width: 95px;
+  height: 95px;
+}
+.debate-part1-div1 {
+  border-top: 4px solid #f92859;
+}
+.debate-part1-div2 {
+  border-top: 3px double #ddd;
+}
+.debate-part1-div2 img {
+  right: 7px;
+  bottom: 7px;
+}
+.vs {
+  background-color: black;
+  margin: 14px auto 18px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #d6d6d6;
+}
+[src="images/debate3.webp"] {
+  width: 63px;
+  height: 63px;
+}
+.debate-part2-div1 {
+  border-top: 4px solid #1c87fb;
+}
+[src="https://g.newsweek.com/www/images/logo-n1.svg"] {
+  width: 29px;
+  height: 28px;
+}
+.sign-up {
+  max-width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+}
+button {
+  background-color: #666;
+}
+button:hover {
+  background-color: #999;
+}
+.sign-up:nth-child(1):last-child {
+  color: yellow;
+}
+/* * {
+  border: 1px solid greenyellow;
+} */
