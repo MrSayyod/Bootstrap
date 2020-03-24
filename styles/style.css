@@ -32,7 +32,7 @@ header a:hover {
 .bn-ul li {
   line-height: 12px;
   margin: 5px;
-  padding: 8px;
+  padding: 7px;
   border-left: 1px solid #d9d9d9;
 }
 .bn-ul li:first-of-type {
@@ -43,7 +43,7 @@ header a:hover {
   color: black;
   font-weight: 700;
 }
-.bn-ul li a:hover, .subscribe:hover {
+.bn-ul li a:hover, .subscribe:hover, .ar-div1 {
   color: #f72210;
 }
 #search {
@@ -55,7 +55,37 @@ header a:hover {
   right: 25px;
   top: 8px;
 }
-
+main {
+  border-top: 1px solid #f4f5f6;
+  padding-top: 15px;
+}
+.title {
+  padding-bottom: 11px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.ar-div1, .ar-mid-div1 {
+  bottom: 0;
+  z-index: 1;
+}
+.ar-div1 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.cl-b-hv-r, .cl-b-hv-b, .cl-b-hv-r:hover, .cl-b-hv-b:hover {
+  color: black;
+} 
+.cl-b-hv-r, .cl-b-hv-b, .cl-b-hv-b:hover  {
+  text-decoration: none;
+}
+.cl-b-hv-r:hover {
+  text-decoration: underline #f72210;
+}
+.ar-mid-div1 {
+  background-color: #c2d4d7;
+}
+.mp-m3-div {
+  border-top: 1px solid #ddd;
+}
 /* * {
-  border: 1px solid greenyellow;
-} */
+  border: 1px solid greenyellow; */
+}
