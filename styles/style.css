@@ -79,7 +79,7 @@ header a:hover, .cl-b-hv-un-r, .cl-b-hv-b, .cl-b-hv-b:hover, .cl-b-hv-r, .cl-b-h
 .ar-mid-div1 {
   background-color: #c2d4d7;
 }
-.mp-m3-div, .opinion-div1, .latest-news-div, .magazine-container {
+.mp-m3-div, .opinion-div1, .latest-news-div, .magazine-container, .editor-picks-container {
   border-top: 1px solid #ddd;
 }
 .opinion a:hover {
