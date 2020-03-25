@@ -1,12 +1,10 @@
 html {
   font-family:'Roboto Condensed', sans-serif;
 }
-.top-nav, [src="https://g.newsweek.com/www/images/logo-n1.svg"]  {
+.top-nav, [src="https://g.newsweek.com/www/images/logo-n1.svg"], .features, .in-focus  {
   background-color: #f72210;
 }
-header a:hover {
-  text-decoration: none;
-}
+
 [src="images/weather.webp"] {
   width: 24px;
   height: 24px;
@@ -22,7 +20,6 @@ header a:hover {
   bottom: -1.5em;
 }
 .subscribe {
-  color: #f72210;
   background-color: white;
   padding: 5px;
 }
@@ -42,7 +39,7 @@ header a:hover {
   font-size: 19px;
   font-weight: 700;
 }
-.bn-ul li a:hover, .subscribe:hover, .ar-div1, .cl-b-hv-r:hover {
+.bn-ul li a:hover, .subscribe, .subscribe:hover, .ar-div1, .cl-b-hv-r:hover, .cl-r-hv-r:hover, .cl-r-hv-r {
   color: #f72210;
 }
 #search {
@@ -63,7 +60,7 @@ main {
   font-size: 18px;
   font-weight: bold;
 }
-.ar-div1, .ar-mid-div1 {
+.ar-div1, .ar-mid-div1, .in-focus {
   bottom: 0;
   z-index: 1;
 }
@@ -73,7 +70,7 @@ main {
 .bn-ul li a, .cl-b-hv-un-r, .cl-b-hv-b, .cl-b-hv-un-r:hover, .cl-b-hv-b:hover, .cl-b-hv-r {
   color: black;
 } 
-.cl-b-hv-un-r, .cl-b-hv-b, .cl-b-hv-b:hover, .cl-b-hv-r, .cl-b-hv-r:hover {
+header a:hover, .cl-b-hv-un-r, .cl-b-hv-b, .cl-b-hv-b:hover, .cl-b-hv-r, .cl-b-hv-r:hover, .cl-r-hv-r, .cl-r-hv-r:hover {
   text-decoration: none;
 }
 .cl-b-hv-un-r:hover {
@@ -82,7 +79,7 @@ main {
 .ar-mid-div1 {
   background-color: #c2d4d7;
 }
-.mp-m3-div, .opinion-div1, .latest-news-div {
+.mp-m3-div, .opinion-div1, .latest-news-div, .magazine-container {
   border-top: 1px solid #ddd;
 }
 .opinion a:hover {
@@ -135,11 +132,13 @@ main {
   width: 29px;
   height: 28px;
 }
+.sign-up, .see-all-features {
+  background-color: #f4f5f6;
+}
 .sign-up {
   max-width: 300px;
   padding: 20px;
   margin: 0 auto;
-  background-color: #f4f5f6;
   border: 1px solid #e5e5e5;
 }
 button {
@@ -148,8 +147,20 @@ button {
 button:hover {
   background-color: #999;
 }
-.sign-up:nth-child(1):last-child {
-  color: yellow;
+.see-all-features:hover {
+  background-color: #dbdcdd;
+}
+.see-all-features::after {
+  content: '';
+  margin: 8px 0 0 10px;
+  width: 8px;
+  height: 14px;
+  background-image: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg);
+  position: relative;
+  bottom: 5px;
+}
+.h-295 {
+  height: 16.5rem;
 }
 /* * {
   border: 1px solid greenyellow;
