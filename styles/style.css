@@ -1,6 +1,9 @@
 html * {
   font-family:'Roboto Condensed', sans-serif;
 }
+html {
+  width: 100%;
+}
 .top-nav, [src="https://g.newsweek.com/www/images/logo-n1.svg"], .features, .in-focus, .btn-subscribe  {
   background-color: #f72210;
 }
@@ -164,9 +167,7 @@ header a:hover, .cl-b-hv-un-r, .cl-b-hv-b, .cl-b-hv-b:hover, .cl-b-hv-r, .cl-b-h
   position: relative;
   bottom: 5px;
 }
-.h-295 {
-  height: 16.5rem;
-}
+
 .for-logo {
   border: 1px solid #fff;
   box-shadow: 4px 4px #f72210;
@@ -247,6 +248,11 @@ footer * {
   .right-nav {
     position: relative;
     bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+  .h-295 {
+    height: 16.5rem;
   }
 }
 /* @media (max-width: 1300px) {
