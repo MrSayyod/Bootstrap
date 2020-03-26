@@ -189,13 +189,19 @@ header a:hover, .cl-b-hv-un-r, .cl-b-hv-b, .cl-b-hv-b:hover, .cl-b-hv-r, .cl-b-h
 .img35 {
   top: 13px;
   left: 80px;
-  z-index: 1;
-} 
+  } 
+.btn-subscribe {
+  padding: 12px;
+}
 .btn-subscribe:hover {
   background-color: #de1f0e;
 }
-.in-depth {
-  left: 80px;
+/* .for-z-index {
+  margin-right: 90px;
+} */
+.for-newsletter {
+  border: 1px solid #ebebeb;
+  background-color: white;
 }
 .newsletter-img {
   background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png);
@@ -260,19 +266,14 @@ footer * {
     height: 100%;
   }
 }
-/* @media (max-width: 1300px) {
-  .bn-ul li a {
-    font-size: 19px;
-    font-weight: 700;
+@media screen and (max-width: 767px) {
+  .newsletter-img {
+    height: 165px;
+  }
+  .for-z-index {
+    margin: 0 auto;
   }
 }
-@media (min-width: 1300px) {
-  .bn-ul li a {
-    font-size: 24px;
-    font-weight: 700;
-  }
-} */
-
 /* * {
   border: 1px solid greenyellow;
 } */
