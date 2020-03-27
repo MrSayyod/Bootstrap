@@ -4,6 +4,9 @@ html * {
 html {
   width: 100%;
 }
+main {
+  background-color: #fff;
+}
 .top-nav, [src="https://g.newsweek.com/www/images/logo-n1.svg"], .features, .in-focus, .btn-subscribe  {
   background-color: #f72210;
 }
@@ -16,7 +19,7 @@ html {
 .middle > a svg{
   width: 396px;
   height: 60px;
-  margin: 10px 0 auto;
+  /* margin: 10px 0 auto; */
 }
 .right-nav {
   position: relative;
@@ -140,7 +143,7 @@ header a:hover, .cl-b-hv-un-r, .cl-b-hv-b, .cl-b-hv-b:hover, .cl-b-hv-r, .cl-b-h
   width: 29px;
   height: 28px;
 }
-.sign-up, .see-all-features, .slide-last-1 {
+.full-body, .sign-up, .see-all-features, .slide-last-1 {
   background-color: #f4f5f6;
 }
 .sign-up {
@@ -260,20 +263,46 @@ footer * {
   .h-295 {
     height: 16.5rem;
   }
+  /* .flexible-nav {
+    min-width: 950px;
+  } */
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .h-295 {
     height: 100%;
+  }
+  .left-nav {
+    right: 130px;
   }
 }
 @media screen and (max-width: 767px) {
   .newsletter-img {
     height: 165px;
   }
-  .for-z-index {
-    margin: 0 auto;
-  }
+  
+  /* .for-z-index {
+    margin-left: 150px 
+  } */
+  /* .img35 {
+    left: 290px
+  } */
 }
+/* @media screen and (min-width: 500px) {
+  .left-nav {
+    right: 50px;
+  }
+} */
 /* * {
   border: 1px solid greenyellow;
 } */
+
+/* needs correction
+- paddings on top navbar
+- ordering in small size
+- navbar sticky position
+- padding from featured stories on small size
+- give some margin-left to slideshow section's last div
+- deleting borders from footer links on small size
+- give body bootstrap classes and background color #f4f5f6
+- add main as a general container and give background color white
+- removing border from input */
