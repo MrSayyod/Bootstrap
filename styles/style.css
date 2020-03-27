@@ -233,6 +233,10 @@ header a:hover,
   bottom: 5px;
 }
 
+[class="col-3 p-0"] img {
+  height: 95px;
+}
+
 .for-logo {
   border: 1px solid #fff;
   box-shadow: 4px 4px #f72210;
@@ -267,9 +271,6 @@ header a:hover,
   background-color: #de1f0e;
 }
 
-/* .for-z-index {
-  margin-right: 90px;
-} */
 .for-newsletter {
   border: 1px solid #ebebeb;
   background-color: white;
@@ -381,18 +382,3 @@ footer * {
     border: 0;
   }
 }
-
-/* * {
-  border: 1px solid greenyellow;
-} */
-
-/* needs correction
-+ paddings on top navbar
-- ordering in small size
-- navbar sticky position
-+ padding from featured stories on small size
-+ give some margin-left to slideshow section's last div
-+ deleting borders from footer links on small size
-+ give body bootstrap classes and background color #f4f5f6
-+ add main as a general container and give background color white
-+ removing border from input */
